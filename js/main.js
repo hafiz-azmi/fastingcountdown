@@ -5,9 +5,9 @@ jQuery(document).ready(function() {
         Background slideshow
     */
 	$('.banner-area').backstretch([
-	                     "img/backgrounds/1.jpg"
-	                   , "img/backgrounds/2.jpg"
-	                   , "img/backgrounds/3.jpg"
+	                     "img/backgrounds/4.jpg"
+	                   , "img/backgrounds/5.jpg"
+	                   , "img/backgrounds/6.jpg"
 	                  ], {duration: 3000, fade: 750});
 	
 
