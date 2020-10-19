@@ -37,9 +37,10 @@ jQuery(document).ready(function() {
 });
 
 // cowntdown function. Set the date below (December 1, 2016 00:00:00):
-var austDay = new Date("April 23, 2020 19:20:00");
+var austDay = new Date("April 13, 2021 19:20:00");
 	$('#countdown').countdown({until: austDay, layout: '<div class="item"><p>{dn}</p> {dl}</div> <div class="item"><p>{hn}</p> {hl}</div> <div class="item"><p>{mn}</p> {ml}</div> <div class="item"><p>{sn}</p> {sl}</div>'});
 	$('#year').text(austDay.getFullYear());
+	$('#ram_date').text("1 Ramadhan 1442 = "+austDay)
 	
 // smooth scrolling	
 	$(function() {
